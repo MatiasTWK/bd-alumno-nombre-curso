@@ -6,6 +6,7 @@ const cursoSchema = new Schema({
     type: String,
     required: true,
   },
+  date: {},
 });
 
 module.exports = mongoose.model("Curso", cursoSchema);
